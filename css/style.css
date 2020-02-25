@@ -14,7 +14,7 @@ h2 {
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
 	font-weight: 800;
-	font-size: 36px;
+	font-size: 25px;
 	color: #333;
 }
 h3 {
@@ -184,16 +184,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	display: table;
-	width: 100%;
-	height: 70%;
 	padding: 0;
 	background: url(../img/x2.gif) center center no-repeat;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background-color: #fff;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	-o-background-size: 100%;
+	max-width: 100%; 
+	width: 100%; 
+	height: auto;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0);
@@ -201,8 +201,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #2E076D;
-	font-size: 82px;
-	font-weight: 700;
+	font-size: 5vw;
+	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -314,6 +314,35 @@ header .intro-text {
 #program .program-desc {
 	margin-bottom: 0px;
 }
+
+/* Features Section */
+#features {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+#features i.fa {
+	font-size: 38px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 30px 0;
+	border-radius: 50%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
+.btn-week{
+	background-color: #f6f6f6; 
+	border:0;
+}
+
+.btn-week:hover{
+	background-color: #fff; 
+	border:0;
+}
+
 /* Blogs Section */
 #blogs {
 	padding: 100px 0;
@@ -322,7 +351,7 @@ header .intro-text {
 }
 .blogs-item {
 	margin: 1px -15px 0 -14px;
-	padding: 0;
+	padding: 25px;
 }
 .blogs-item .hover-bg {
 	overflow: hidden;
@@ -364,7 +393,7 @@ header .intro-text {
 
 /* Team Section */
 #team {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 #team h4 {
 	margin: 5px 0;
@@ -382,7 +411,8 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding-top: 100px;
+	padding-bottom: 15px;
 	background: linear-gradient(to right, #ad5389, #3c1053);
 	color: #fff;
 }
@@ -448,7 +478,7 @@ label {
 }
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.15);
-	padding-top: 50px;
+	padding-top: 20px;
 	margin-top: 50px;
 	text-align: center;
 }
@@ -457,10 +487,10 @@ label {
 	margin: 0 20px;
 }
 #contact .social i.fa {
-	font-size: 22px;
-	width: 48px;
-	height: 48px;
-	padding: 12px 0;
+	font-size: 18px;
+	width: 35px;
+	height: 35px;
+	padding: 7px 0;
 	border: 2px solid #fff;
 	background-color: #fff;
 	color: linear-gradient(to right, #ad5389, #3c1053);
@@ -535,7 +565,7 @@ label {
 }
 
 #fnqs h3 {
-	font-size: 22px;
+	font-size: 20px;
 	margin: 0 0 20px 0;
 	color: #fff;
 }
